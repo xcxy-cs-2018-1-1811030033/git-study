@@ -1,0 +1,6 @@
+#this makefile is test for include process
+.PHONY:all clean
+vari_a += " 2nd vari..."
+all:
+	@echo $(vari_a)
+clean:
